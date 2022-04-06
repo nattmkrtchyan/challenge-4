@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet"  href="index.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+</head>
+<body>
+<header>  
+    <section>
+        <a href="highscores.html"> View High Scores</a>
+
+    </section>
+
+    <section id="timer" class="timer">
+      Time <span id="time">0</span>
+     </section>
+    
+    </header>
+
+<section>
+    <main>
+        <div id="startscreen" class="startscreen"> 
+        <h1>Coding Quiz Challenge </h1>
+        <p>Try to answer the following code-related questions within the time limit.Keep in mind
+            that incorrect answers will penalize your score/time by ten seconds! </p>
+
+<button id="startbtn" type="button">Start Quiz</button>
+</div>
+<div id="Questions" class="Hidden">
+    <h2 id="questiontitle"></h2>
+    <div id="Choices" class="Choices"></div>
+</div>
+<div id="endscreen" class="Hidden"> 
+    <h1>All done!</h1>
+    <p>Your  final score is <span id="Score">0</span></p>
+    <p>Enter initials:<input></p>
+     <button id="submitbtn" type="button">Submit</button>
+</div>
+<div id="feedback" class="Hidden"> Feedback</div>
+  </main>
+</section>
+
+    <script src="questions.js"></script>
+    <script src="index.js"></script>   
+
+
+
+</body>
+</html>

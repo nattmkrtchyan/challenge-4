@@ -1,0 +1,98 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#startscreen {
+    margin: auto;
+    padding: 32px;
+    text-align: center;
+}
+    #startbtn {
+        background-color: blueviolet;
+        color: white;
+        padding: 12px;
+        border-radius: 4px;
+    }
+    
+body{
+    font-family: Arial;
+    font-size: 120%
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+    transition: color 0.1s;
+
+}
+a:hover {color:blueviolet;
+
+}
+
+button { color:blueviolet;
+}
+button:hover {background-color:blueviolet;
+}
+
+.choices button{
+    display: block;
+}
+
+input[type="text"] { 
+    font-size: 100%;
+}
+
+ol { padding-left: 0px;
+max-height: 400px;
+overflow:auto;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+
+}
+
+li:nth-child(odd) {
+    background-color: white;
+}
+.wrapper {
+    margin:100px auto 0 auto; 
+    max-width: 600px;
+}
+
+.Hidden {
+    display: none;
+}
+.wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+
+  .start {
+    text-align: center;
+  }
+
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    border-top: 2px solid #ccc;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
